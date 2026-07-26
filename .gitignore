@@ -1,0 +1,36 @@
+# KiCad lock files
+*.lck
+
+# KiCad personal settings
+*.kicad_prl
+
+# KiCad backups
+*-backups/
+*.bak
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Python
+__pycache__/
+*.pyc
+
+# Excel temporary files
+~$*.xlsx
+
+# Generated fabrication files (optional)
+production/Gerbers/
+production/Drill/
+production/PDF/
+
+# If you want to keep generated manufacturing files,
+# remove the three lines above.
