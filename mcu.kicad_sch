@@ -5738,7 +5738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "05adb16b-e46c-4591-bece-de35b8e79fc1")
+		(uuid "0e5cde3f-82b4-4639-95f0-aed77bc83aca")
 		(property "Reference" "R30"
 			(at 55.88 124.4599 0)
 			(show_name no)
@@ -5750,7 +5750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "330"
 			(at 55.88 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5772,7 +5772,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23689-0603WAF2200T5E/C22962"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
 			(at 53.34 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5783,7 +5783,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 220Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 330Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 53.34 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5794,7 +5794,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22962"
+		(property "LCSC Part #" "C23138"
 			(at 53.34 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5806,10 +5806,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "629728de-a153-4827-9ab6-162e5848f469")
+			(uuid "c2319771-a4ab-49bd-a6f6-debfe5567470")
 		)
 		(pin "2"
-			(uuid "a6b6760d-ff93-4977-9887-fa6eb9d7939f")
+			(uuid "249ee346-164e-4168-a9ef-4430c97563a8")
 		)
 		(instances
 			(project "motor_bldc_esc_V1"
@@ -5826,15 +5826,11 @@
 						(name "LowCurrent")
 						(field
 							(name "Datasheet")
-							(value "https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557")
+							(value "https://jlcpcb.com/partdetail/18506-0805W8F7500T5E/C17818")
 						)
 						(field
 							(name "Description")
-							(value "-55℃~+155℃ 125mW 150V 220Ω Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS")
-						)
-						(field
-							(name "LCSC")
-							(value "C17557")
+							(value "-55℃~+155℃ 125mW 150V 750Ω Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS")
 						)
 					)
 					(variant
@@ -7244,7 +7240,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Status"
+		(property "Value" "LED_Error"
 			(at 74.93 138.7474 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8846,7 +8842,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dce8688f-91ef-4e19-a856-66971aad34ee")
+		(uuid "ddcdbf7c-75af-48fb-9347-b49cc2d47897")
 		(property "Reference" "R31"
 			(at 73.66 124.4599 0)
 			(show_name no)
@@ -8858,7 +8854,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220"
+		(property "Value" "330"
 			(at 73.66 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8880,7 +8876,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/23689-0603WAF2200T5E/C22962"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/23865-0603WAF3300T5E/C23138"
 			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8891,7 +8887,7 @@
 				)
 			)
 		)
-		(property "Description" "-55℃~+155℃ 100mW 220Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
+		(property "Description" "-55℃~+155℃ 100mW 330Ω 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
 			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8902,7 +8898,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C22962"
+		(property "LCSC Part #" "C23138"
 			(at 71.12 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8914,10 +8910,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e6c4015-ccd1-4307-9716-258308c81800")
+			(uuid "b13a4b29-4207-4295-8c01-77c0691a4b32")
 		)
 		(pin "2"
-			(uuid "cd024216-3dc9-41e7-add1-834de1bba25b")
+			(uuid "df3273aa-0c8e-4c9b-8e56-3c3af014a3d1")
 		)
 		(instances
 			(project "motor_bldc_esc_V1"
@@ -8934,15 +8930,11 @@
 						(name "LowCurrent")
 						(field
 							(name "Datasheet")
-							(value "https://jlcpcb.com/partdetail/18245-0805W8F2200T5E/C17557")
+							(value "https://jlcpcb.com/partdetail/18506-0805W8F7500T5E/C17818")
 						)
 						(field
 							(name "Description")
-							(value "-55℃~+155℃ 125mW 150V 220Ω Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS")
-						)
-						(field
-							(name "LCSC")
-							(value "C17557")
+							(value "-55℃~+155℃ 125mW 150V 750Ω Thick Film Resistor ±1% ±100ppm/℃ 0805 Chip Resistor - Surface Mount ROHS")
 						)
 					)
 					(variant

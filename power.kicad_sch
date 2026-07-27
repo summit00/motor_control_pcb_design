@@ -4200,7 +4200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HSOP-8-1EP_3.9x4.9mm_P1.27mm_EP2.41x3.1mm_ThermalVias"
+		(property "Footprint" "Custom:LM5164DDAR"
 			(at 106.68 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -7880,7 +7880,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C42380259.html?s_z=n_q_t_inductor&spm=wm.fly.bg.3.xh___wm.ssy.tc.0.tz&lcsc_vid=QlcIUVJQQgMNAlZXQ1UMBVAFFVlZVwVfFVlYV1dXE1ExVlNeQlFaX1BWQ1BcUzsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/SunltechTech-SLW8040S390MST/C206289"
 			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7891,7 +7891,7 @@
 				)
 			)
 		)
-		(property "Description" "FIXED IND 39uH 1.9A SMD,8x8mm"
+		(property "Description" "1.7A 1.95A 139mΩ 39uH Magnetic Shielded Inductor ±20% SMD,8x8mm Power Inductors ROHS"
 			(at 148.59 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7902,7 +7902,7 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C42380259"
+		(property "LCSC Part #" "C206289"
 			(at 148.59 90.17 90)
 			(hide yes)
 			(show_name no)
