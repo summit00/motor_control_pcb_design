@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.2032,
-          "height": 0.499999,
-          "width": 0.499999
+          "drill": 0.3,
+          "height": 0.6,
+          "width": 0.6
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -711,7 +711,7 @@
         "uuid": "d588a8f7-d6f5-465d-aec5-e09f29b4edb1"
       }
     ],
-    "used_designators": "H4,#PWR30,#PWR51,#PWR59,#PWR78,#PWR81,D6-8,J3,R7-8,R14,R23-27,R30-31,R33,R35,C34",
+    "used_designators": "C13,C15,H1-4",
     "variants": [
       {
         "name": "HighCurrent"

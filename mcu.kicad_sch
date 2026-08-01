@@ -6800,6 +6800,99 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 72.39 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a515482-a4e5-4abe-89c3-5b1f31d422cc")
+		(property "Reference" "C15"
+			(at 76.2 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 76.2 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 73.3552 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/2015-CL10C330JB8NNNC/C1663"
+			(at 72.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "https://jlcpcb.com/partdetail/2015-CL10C330JB8NNNC/C1663"
+			(at 72.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "https://jlcpcb.com/partdetail/2015-CL10C330JB8NNNC/C1663"
+			(at 72.39 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0c00a342-d8fe-431b-badf-9e9973c8be6d")
+		)
+		(pin "2"
+			(uuid "6066c92a-977b-4dd3-8b35-98dd3b17f9d2")
+		)
+		(instances
+			(project "motor_bldc_esc_V1"
+				(path "/d588a8f7-d6f5-465d-aec5-e09f29b4edb1/ccae0934-25d0-48c7-8a55-4cf7ad2bca5d"
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 95.25 154.94 0)
 		(unit 1)
 		(body_style 1)
@@ -8086,118 +8179,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 59.69 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e5d8207-d2cc-4ec1-af84-bc14b9ee926a")
-		(property "Reference" "C13"
-			(at 63.5 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33p"
-			(at 63.5 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 58.7248 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2015-CL10C330JB8NNNC/C1663"
-			(at 59.69 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "33pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 59.69 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C1663"
-			(at 59.69 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dcaa54db-b499-4824-97cb-f92edf40bdb4")
-		)
-		(pin "2"
-			(uuid "b864e22e-217a-45d4-8c3e-5650fe110d50")
-		)
-		(instances
-			(project "motor_bldc_esc_V1"
-				(path "/d588a8f7-d6f5-465d-aec5-e09f29b4edb1/ccae0934-25d0-48c7-8a55-4cf7ad2bca5d"
-					(reference "C13")
-					(unit 1)
-					(variant
-						(name "LowCurrent")
-						(field
-							(name "Datasheet")
-							(value "https://jlcpcb.com/partdetail/2015-CL10C330JB8NNNC/C1663")
-						)
-						(field
-							(name "Description")
-							(value "33pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
-						)
-						(field
-							(name "Footprint")
-							(value "Capacitor_SMD:C_0201_0603Metric")
-						)
-						(field
-							(name "Value")
-							(value "33p")
-						)
-					)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 71.12 135.89 90)
 		(unit 1)
@@ -8391,118 +8372,6 @@
 				(path "/d588a8f7-d6f5-465d-aec5-e09f29b4edb1/ccae0934-25d0-48c7-8a55-4cf7ad2bca5d"
 					(reference "C14")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 72.39 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86082640-4ea3-415d-8737-c44e14cd126a")
-		(property "Reference" "C15"
-			(at 76.2 71.1199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "33p"
-			(at 76.2 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 71.4248 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://jlcpcb.com/partdetail/2015-CL10C330JB8NNNC/C1663"
-			(at 72.39 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "33pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"
-			(at 72.39 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part #" "C1663"
-			(at 72.39 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bc68abf7-2c15-4912-8801-4a8aef21b291")
-		)
-		(pin "2"
-			(uuid "ba3d3187-16ac-4dae-8feb-721db7523099")
-		)
-		(instances
-			(project "motor_bldc_esc_V1"
-				(path "/d588a8f7-d6f5-465d-aec5-e09f29b4edb1/ccae0934-25d0-48c7-8a55-4cf7ad2bca5d"
-					(reference "C15")
-					(unit 1)
-					(variant
-						(name "LowCurrent")
-						(field
-							(name "Datasheet")
-							(value "https://jlcpcb.com/partdetail/2015-CL10C330JB8NNNC/C1663")
-						)
-						(field
-							(name "Description")
-							(value "33pF 50V C0G ±5% 0603 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS")
-						)
-						(field
-							(name "Footprint")
-							(value "Capacitor_SMD:C_0201_0603Metric")
-						)
-						(field
-							(name "Value")
-							(value "33p")
-						)
-					)
 				)
 			)
 		)
@@ -9562,6 +9431,99 @@
 			(project "motor_bldc_esc_V1"
 				(path "/d588a8f7-d6f5-465d-aec5-e09f29b4edb1/ccae0934-25d0-48c7-8a55-4cf7ad2bca5d"
 					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 59.69 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c86bb3eb-1082-4302-ad83-cadf5ea2d3e0")
+		(property "Reference" "C13"
+			(at 63.5 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33p"
+			(at 63.5 73.6599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 60.6552 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/2015-CL10C330JB8NNNC/C1663"
+			(at 59.69 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "https://jlcpcb.com/partdetail/2015-CL10C330JB8NNNC/C1663"
+			(at 59.69 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part #" "https://jlcpcb.com/partdetail/2015-CL10C330JB8NNNC/C1663"
+			(at 59.69 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d990b0c5-082d-4d36-b472-1ccf1dea51dc")
+		)
+		(pin "2"
+			(uuid "a6bda6b7-fc24-445d-8185-9c6b478d55ab")
+		)
+		(instances
+			(project "motor_bldc_esc_V1"
+				(path "/d588a8f7-d6f5-465d-aec5-e09f29b4edb1/ccae0934-25d0-48c7-8a55-4cf7ad2bca5d"
+					(reference "C13")
 					(unit 1)
 				)
 			)
