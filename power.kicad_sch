@@ -5648,7 +5648,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Status"
+		(property "Value" "LED_5V"
 			(at 215.9 47.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9600,7 +9600,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "LED_Status"
+		(property "Value" "LED_3V3"
 			(at 199.39 47.3074 90)
 			(show_name no)
 			(do_not_autoplace no)
